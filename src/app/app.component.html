@@ -504,6 +504,11 @@
   </svg>
 
 </div>
+<ul>
+  <li *ngFor="let item of items | async">
+    {{ item.name }}
+  </li>
+</ul>
 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
